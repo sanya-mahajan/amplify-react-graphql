@@ -1,0 +1,93 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+.navbar {
+  background: linear-gradient(to right, #001f3f, #00091a);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 1%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 20%;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  background-color: #00061a;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #001f3f;
+  color: white;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-top: 20%;
+  transition: transform 0.3s ease;
+}
+
+.open .bar:first-child {
+  transform: rotate(45deg) translate(-5px, 6px);
+}
+
+.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.open .bar:last-child {
+  transform: rotate(-45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar.open .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+  }
+
+  .bar {
+    margin-top: 5px;
+  }
+  .nav-item {
+    padding:10%;
+  }
+}
