@@ -13,19 +13,19 @@ const Footer = () => {
           </p>
           <ul className="footer-links">
             <li className="footer-link-item">
-              <a href="https://github.com/your-username">
+              <a href="https://github.com/sanya-mahajan">
                 <GitHub className="icon" />
                 GitHub
               </a>
             </li>
             <li className="footer-link-item">
-              <a href="https://linkedin.com/in/your-username">
+              <a href="https://linkedin.com/in/sanyamahajan08">
                 <LinkedIn className="icon" />
                 LinkedIn
               </a>
             </li>
             <li className="footer-link-item">
-              <a href="mailto:youremail@example.com">
+              <a href="mailto:sanyamahajan08@gmail.com">
                 <Email className="icon" />
                 Email
               </a>

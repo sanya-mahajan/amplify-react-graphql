@@ -1,0 +1,56 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.home {
+  text-align: center;
+  margin-top: 0vh;
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 10vh;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.name.animate {
+  opacity: 1;
+}
+
+.typed-text {
+  margin-top: 3vh;
+  font-family: 'Dancing Script', cursive;
+  font-size: 12vw;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid #000;
+  animation: typing 2s steps(20) 1s forwards;
+  opacity: 0;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes blinkCursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

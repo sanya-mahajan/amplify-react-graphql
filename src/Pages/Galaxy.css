@@ -1,0 +1,69 @@
+/* Galaxy.css */
+.galaxy {
+    width: 10vw;
+  }
+  
+  .star {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: rgb(33, 243, 225);
+    position: absolute;
+    top:40vw;
+    left:40vw;
+    transform-style: preserve-3d;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .star1 {
+    transform: rotateX(45deg) rotateY(30deg) translateZ(300px);
+  }
+  
+  .star2 {
+    transform: rotateX(55deg) rotateY(-10deg) translateZ(300px);
+  }
+  
+  .star3 {
+    transform: rotateX(65deg) rotateY(70deg) translateZ(300px);
+  }
+  
+  .star4 {
+    transform: rotateX(75deg) rotateY(-30deg) translateZ(300px);
+  }
+  
+  .star5 {
+    transform: rotateX(85deg) rotateY(90deg) translateZ(300px);
+  }
+  
+  .star6 {
+    transform: rotateX(95deg) rotateY(-50deg) translateZ(300px);
+  }
+  
+  .star7 {
+    transform: rotateX(105deg) rotateY(110deg) translateZ(300px);
+  }
+  
+  .star8 {
+    transform: rotateX(115deg) rotateY(-70deg) translateZ(300px);
+  }
+  
+  .star9 {
+    transform: rotateX(125deg) rotateY(130deg) translateZ(300px);
+  }
+  
+  .star10 {
+    transform: rotateX(135deg) rotateY(-90deg) translateZ(300px);
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg) translateZ(300px);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg) translateZ(300px);
+    }
+  }
+  

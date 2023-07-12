@@ -1,8 +1,9 @@
-/* Footer.css */
+
 .footer {
     background-color: #f0f0f0;
-    padding: 20px 0;
+    padding: 2vh;
     color: #555;
+    margin-bottom: 0%;
   }
   
   .container {
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 2vw;
   }
   
   .footer-text {
@@ -30,7 +32,7 @@
   }
   
   .footer-link-item {
-    margin-right: 10px;
+    margin-right: 2vw;
   }
   
   .footer-link-item:last-child {
@@ -49,8 +51,11 @@
   }
   
   .footer-link-item .icon {
-    margin-right: 5px;
-    width: 20px;
-    height: 20px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    width: 2vw;
+
   }
+
+
   

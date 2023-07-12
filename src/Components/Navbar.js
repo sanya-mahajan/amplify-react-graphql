@@ -23,13 +23,13 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="/projects" className="nav-link">
+          <a href="https://github.com/sanya-mahajan?page=1&tab=repositories" className="nav-link">
             Projects
           </a>
         </li>
         <li className="nav-item">
-          <a href="/about" className="nav-link">
-            About
+          <a href="https://www.overleaf.com/read/vxrczsppzmkc" className="nav-link">
+            Resume
           </a>
         </li>
         <li className="nav-item">

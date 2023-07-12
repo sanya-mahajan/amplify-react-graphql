@@ -1,0 +1,15 @@
+/* Project.css */
+.project {
+    margin-bottom: 10px;
+  }
+  
+  .project-link {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
